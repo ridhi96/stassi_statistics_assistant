@@ -28,9 +28,9 @@ Technologies used: LangChain, Streamlit
 
 Directory for books used by the RAG. Book sources listed below:
 
-[Econometric Analysis of Cross Section and Panel Data Jeffrey M. Wooldridge](https://ipcig.org/evaluation/apoio/Wooldridge%20-%20Cross-section%20and%20Panel%20Data.pdf)
-[Econometric Data Science: A Predictive Modeling Approach by Francis X. Diebold](https://www.sas.upenn.edu/~fdiebold/Teaching104/Econometrics.pdf)
-[Probability and Statistics: The Science of Uncertainty by Michael J. Evans and Jeffrey S. Rosenthal](https://www.utstat.toronto.edu/mikevans/jeffrosenthal/book.pdf)
+* [Econometric Analysis of Cross Section and Panel Data Jeffrey M. Wooldridge](https://ipcig.org/evaluation/apoio/Wooldridge%20-%20Cross-section%20and%20Panel%20Data.pdf)
+* [Econometric Data Science: A Predictive Modeling Approach by Francis X. Diebold](https://www.sas.upenn.edu/~fdiebold/Teaching104/Econometrics.pdf)
+* [Probability and Statistics: The Science of Uncertainty by Michael J. Evans and Jeffrey S. Rosenthal](https://www.utstat.toronto.edu/mikevans/jeffrosenthal/book.pdf)
 
 ### statistics_faiss_llm_index
 
