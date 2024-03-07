@@ -81,13 +81,13 @@ def get_answer_from_rag(query, qa_chain):
     return output
 
 def process_q_n_a(query, qa_chain):
-    '''
+    """
     This function handles triggering the Q&A agent and returning the 
     answer response. 
 
     Returns
         output(dict): A dictionary with keys 'Answer' and 'Reference'
-    '''
+    """
     try:
         if query:
             output = get_answer_from_rag(query, qa_chain)
@@ -101,10 +101,10 @@ def process_q_n_a(query, qa_chain):
     return output
 
 def save_conversation_and_display(response, option=None):
-    '''
+    """
     This function saves 'assistant' responses into session state
     variables for memory purposes.
-    '''
+    """
     # update state 'conversation_memory' and 'conversation_history' 
     st.session_state.conversation_memory.chat_memory.add_ai_message(response)
     st.session_state.conversation_history.append({"role": "assistant", "content": response})
