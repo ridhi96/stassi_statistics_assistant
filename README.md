@@ -43,3 +43,4 @@ To run the app follow the steps:
 1) Clone the repo
 2) Run the streamlit app by executing: streamlit run ~/code/data_analysis_llm.py
 3) There is no need to re-generate the embeddings as they are already present in the repo. But if you would like to regenerate them, then execute following using command line: python3 ~/code/RAG_embeddings.py
+4) Once the app is running in your browser, enter your OpenAI API key with access to GPT-4 in the sidebar widget to get started.
