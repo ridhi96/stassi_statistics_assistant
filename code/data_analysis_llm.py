@@ -143,7 +143,7 @@ if "conversation_memory" not in st.session_state or st.sidebar.button("Clear Con
 
 
 # Initialize conversation history in session state
-if "conversation_history" not in st.session_state:
+if "conversation_history" not in st.session_state or st.sidebar.button("Clear Conversation History"):
     st.session_state.conversation_history = []
 
 # Display conversation history
